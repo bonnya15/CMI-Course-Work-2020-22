@@ -67,8 +67,8 @@ def multpoly(p1,p2):
         l1.append(keys)
     for k in p2.keys():
         l2. append(k)
-    for i in l1:
-        for j in l2:
+    for i in range (len(l1)):
+        for j in range (len(l2)):
             empty_dict = addpoly(empty_dict,{i+j : (p1[i]*p2[j])})
     return(empty_dict)
 

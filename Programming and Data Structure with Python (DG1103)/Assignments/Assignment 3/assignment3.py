@@ -84,7 +84,7 @@ for i in range(len(v)):
  
 
 #Talikng the keys of the dictionary in List form
-l = list(winner_five_set.keys())
+l = list(number_of_sets_won.keys())
 lst = []
 #appending all the results from the dictionery to the nested list
 for i in range(len(l)):
